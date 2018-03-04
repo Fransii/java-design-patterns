@@ -17,7 +17,7 @@ Project contains examples, descriptions, UML for design patterns implemented in 
 4. Concurrency
     + none
     
-##H ow to use
+## How to use
 
 ### Compile
 ``
