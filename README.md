@@ -1,3 +1,5 @@
+Build status: [![Build Status](https://travis-ci.org/franekd/java-design-patterns.svg?branch=master)](https://travis-ci.org/franekd/java-design-patterns)
+
 Java design patterns
 =
 
