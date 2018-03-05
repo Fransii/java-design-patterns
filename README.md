@@ -12,7 +12,7 @@ Project contains examples, descriptions, UML for design patterns implemented in 
     + none
 
 3. Behavioral
-    + none
+    + Observer
 
 4. Concurrency
     + none
