@@ -30,4 +30,9 @@ public class YoutubeChannel implements Subject{
             observer.update();
         }
     }
+
+    @Override
+    public List<Observer> getObservers() {
+        return observers;
+    }
 }
