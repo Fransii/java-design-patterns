@@ -1,12 +1,12 @@
 package patterns.behavioral.observer.example1;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
@@ -17,7 +17,7 @@ public class YoutubeChannelTest {
     @Mock
     private Observer mockObserver;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
         subject = new YoutubeChannel();
@@ -50,6 +50,6 @@ public class YoutubeChannelTest {
         subject.registerObserver(mockObserver);
         subject.notifyObservers();
 
-        verify(mockObserver,times(1)).update();
+        verify(mockObserver, times(1)).update();
     }
 }

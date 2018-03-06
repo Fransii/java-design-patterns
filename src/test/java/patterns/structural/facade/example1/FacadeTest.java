@@ -1,7 +1,7 @@
 package patterns.structural.facade.example1;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
@@ -11,7 +11,7 @@ import static org.mockito.Mockito.verify;
 
 public class FacadeTest {
 
-    private  Facade facade;
+    private Facade facade;
 
     @Mock
     private FirstComplicatedClass firstComplicatedClass;
@@ -22,7 +22,7 @@ public class FacadeTest {
     @Mock
     private ThirdComplicatedClass thirdComplicatedClass;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
         facade = new Facade(firstComplicatedClass, secondComplicatedClass, thirdComplicatedClass);
