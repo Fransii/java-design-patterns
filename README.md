@@ -11,7 +11,7 @@ Project contains examples, descriptions, UML for design patterns implemented in 
     + Singleton
 
 2. Structural
-    + none
+    + Facade
 
 3. Behavioral
     + Observer
