@@ -12,6 +12,7 @@ Project contains examples, descriptions, UML for design patterns implemented in 
 
 2. Structural
     + Facade
+    + Adapter
 
 3. Behavioral
     + Observer
