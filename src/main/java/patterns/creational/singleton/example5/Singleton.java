@@ -1,6 +1,11 @@
 package patterns.creational.singleton.example5;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 class Singleton {
+    private static final Logger LOGGER = LoggerFactory.getLogger(Singleton.class);
+
     private volatile static Singleton instance;
 
     private Singleton() {
@@ -17,6 +22,6 @@ class Singleton {
     }
 
     public void doSomething() {
-        System.out.println("Using singleton method...");
+        LOGGER.info("Using singleton method...");
     }
 }
