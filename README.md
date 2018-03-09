@@ -9,6 +9,7 @@ Project contains examples, descriptions, UML for design patterns implemented in 
 
 1. Creational
     + Singleton
+    + Builder
 
 2. Structural
     + Facade
