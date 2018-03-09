@@ -24,5 +24,5 @@ public class YoutubeUser implements Observer{
 
     public void setName(String name) {
         this.name = name;
-    }
+    }//jjjjjjjj
 }
